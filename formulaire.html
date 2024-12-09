@@ -8,17 +8,27 @@
     </head>
     <body>
         <main>
-            <h1>Login</h1>
-            <form action="/login" method="POST">
-                <label for="username">Login:</label>
-                <input type="text" id="username" name="username" required>
-                
+            <h1 class = titre>Login</h1>
+            <form action="" method="get" class = "login">
+                <label for="login">Login:</label>
+                <input type="text" id="login" name="login" placeholder="Saisir votre login" 
+                required />
                 <label for="password">Mot de passe :</label>
-                <input type="password" id="password" name="password" required>
-                
+                <input type="password" id="password" name="password" 
+                required/>
                 <button type="submit">Se connecter</button>
             </form>
             <h2>Formulaire de contact</h2>
+            <form action="" method="get" class = "formulaire">
+                <label for="Nom">Nom:</label>
+                <input type="text" id="Nom" name="Nom"
+                required />
+                <label for="Prénom">Prénom :</label>
+                <input type="txt" id="Prénom" name="Prénom"
+                required/>
+                
+                <button type="submit">Envoyer</button>
+            </form>
         </main>
     </body>
 </html>

@@ -1,0 +1,17 @@
+.titre{
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login input, .formulaire input {
+    width: 300px; /* Définit une largeur fixe pour les champs de saisie */
+    padding: 10px; /* Ajoute un peu d'espace intérieur */
+    border: 1px solid #ccc; /* Ajoute une bordure grise claire */
+    border-radius: 5px;
+}
