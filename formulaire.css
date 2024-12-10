@@ -1,15 +1,60 @@
+
 .titre{
     display: flex;
     justify-content: center;
 }
 
+.container{
+    border: 3px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .login{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    border : 3px solid red;
 }
 
-.login input, .formulaire input {
+.container2{
+    border: 3px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.elem{
+    border: 3px solid black;
+    display: flex;
+    gap: 10px;
+}
+/* .formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+} */
+.messager{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#message{
+    width: 400px;
+    height: 200px;
+    resize: vertical;/*redimensionnement vertical*/
+}
+button{
+    display: inline-block;
+    width: 110px;
+}
+
+
+
+.login input{
     width: 300px; /* Définit une largeur fixe pour les champs de saisie */
     padding: 10px; /* Ajoute un peu d'espace intérieur */
     border: 1px solid #ccc; /* Ajoute une bordure grise claire */

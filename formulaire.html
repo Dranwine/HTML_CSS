@@ -9,25 +9,58 @@
     <body>
         <main>
             <h1 class = titre>Login</h1>
-            <form action="" method="get" class = "login">
-                <label for="login">Login:</label>
-                <input type="text" id="login" name="login" placeholder="Saisir votre login" 
-                required />
-                <label for="password">Mot de passe :</label>
-                <input type="password" id="password" name="password" 
-                required/>
-                <button type="submit">Se connecter</button>
+            <form action="">
+                <div class = "container">
+                    <div class = "login">
+                        <label for="login">Login:</label>
+                        <input type="text" id="login" name="login" placeholder="Saisir votre login" 
+                        required />
+                    </div>
+                    <div class = "login">
+                        <label for="password">Mot de passe :</label>
+                        <input type="password" id="password" name="password" 
+                        required/>
+                    </div>
+                    <div class = "login">
+                        <button type="submit" class = button>Se connecter</button>
+                    </div>
+                </div>
             </form>
             <h2>Formulaire de contact</h2>
-            <form action="" method="get" class = "formulaire">
-                <label for="Nom">Nom:</label>
-                <input type="text" id="Nom" name="Nom"
-                required />
-                <label for="Prénom">Prénom :</label>
-                <input type="txt" id="Prénom" name="Prénom"
-                required/>
-                
-                <button type="submit">Envoyer</button>
+            <form action="">
+                <div class = "container2">
+                    <div class = "elem">
+                        <div>
+                            <label for="Nom">Nom:</label>
+                            <input type="text" id="Nom" name="Nom" placeholder="Saisir votre Nom" required />
+                        </div>
+                        <div>
+                            <label for="Prénom">Prénom :</label>
+                            <input type="txt" id="Prénom" name="Prénom" placeholder="Saisir votre Prénom" required/>
+                        </div>
+                    </div>
+                    <div class = "elem">
+                        <div>
+                            <label for="Adresse">Adresse mail :</label>
+                            <input type="txt" id="Adresse" name="Adresse" placeholder="Saisir votre adresse mail" required/>
+                        </div>
+                        <div>
+                            <label for="sujet">Votre sujet:</label>
+                            <select name="sujet" id="sujet">
+                                <option>---</option>
+                                <option>holla</option>
+                                <option>bonjour</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="messager">
+                        <label for="message">Votre message :</label>
+                        <textarea type="txt" id="message" name="message" placeholder="Votre message" ></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </div>
             </form>
         </main>
     </body>
