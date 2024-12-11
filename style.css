@@ -1,38 +1,66 @@
+/* 1920 ed large 1080 de haut */
+
 .container{
+    border: 3px solid black;
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    gap: 15px;
 }
 
 .elem{
-    background-image: url("https://picsum.photos/200/300");
-    width: 200px;
-    height: 300px;
+    background-image: url("https://picsum.photos/100/100");
 }
 
 .block1{
+
+    border: 3px solid rgb(233, 10, 10);
     display: flex;
+    background-image: url("https://picsum.photos/576/990");
+    align-items: stretch;
+    flex: 1;
+
+}
+
+.block2{
+    /* border: 3px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.block3{
+    /* border: 3px solid blue; */
+    display: flex;
+    height: 100%;
+    width: 55%;
+}
+
+.elem1, .elem2, .elem4, .elem5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1 1 calc(50% - 10px);
+    aspect-ratio: 1/1;
 }
 
 .elem1{
-    background-image: url("https://picsum.photos/200/300");
-    border: 3px solid red;
-    height: 100%;
+    background-image: url("https://picsum.photos/150/150");
 }
 
-/* .elem2{
-
+.elem2{
+    background-image: url("https://picsum.photos/150/150");
 }
 
 .elem3{
-
+    background-image: url("https://picsum.photos/764/300");
 }
 
 .elem4{
-
+    background-image: url("https://picsum.photos/150/250");
 }
-
 .elem5{
+    background-image: url("https://picsum.photos/150/250");
 }
 
 .elem6{
@@ -52,6 +80,3 @@
 
 .elem11{
 }
-
-.elem12{
-} */
