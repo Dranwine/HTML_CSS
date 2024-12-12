@@ -1,82 +1,166 @@
 /* 1920 ed large 1080 de haut */
 
 .container{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     display: flex;
-    width: 100%;
-    height: 100vh;
     gap: 15px;
+    height: 100vh;
 }
 
-.elem{
-    background-image: url("https://picsum.photos/100/100");
-}
-
-.block1{
-
-    border: 3px solid rgb(233, 10, 10);
+.block1 {
     display: flex;
-    background-image: url("https://picsum.photos/576/990");
-    align-items: stretch;
-    flex: 1;
-
+    flex-grow: 1;
 }
-
 .block2{
-    /* border: 3px solid green; */
+    border: 3px solid green;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 15px;
 }
 .block3{
     /* border: 3px solid blue; */
     display: flex;
-    height: 100%;
-    width: 55%;
+    flex-grow: 2;
 }
 
-.elem1, .elem2, .elem4, .elem5 {
+.minibox1{
+    display: flex;
+    flex-grow: 2;
+    gap: 15px;
+}
+
+.minibox2{
+    display: flex;
+    flex-grow: 3;
+}
+
+.minibox3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    gap: 15px;
+}
+.minibox4{
+    border: 3px solid yellow;
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 15px;
+}
+.minibox5{
+    border: 3px solid blue;
+    display: flex;
+    flex-grow: 2;
+    gap: 15px;
+}
+.minibox6{
+    border: 3px solid red;
+    display: flex;
+    flex-grow: 2;
+    gap: 15px;
+}
+
+.elem{
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    flex: 1 1 calc(50% - 10px);
-    aspect-ratio: 1/1;
+    background-size: cover;
 }
 
-.elem1{
-    background-image: url("https://picsum.photos/150/150");
+/* #elem2{
+    border: 3px solid rgb(225, 0, 255);
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.elem2{
-    background-image: url("https://picsum.photos/150/150");
-}
-
-.elem3{
-    background-image: url("https://picsum.photos/764/300");
+#elem3{
+    border: 3px solid rgb(225, 0, 255);
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .elem4{
-    background-image: url("https://picsum.photos/150/250");
-}
-.elem5{
-    background-image: url("https://picsum.photos/150/250");
+    border: 3px solid rgb(225, 0, 255);
+    display: flex;
+    flex: auto;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+.elem5{
+    border: 3px solid rgb(225, 0, 255);
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .elem6{
+    border: 3px solid rgb(225, 0, 255);
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .elem7{
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: cover;
+    
 }
 
 .elem8{
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .elem9{
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .elem10{
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .elem11{
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
+.elem12{
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ");
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
